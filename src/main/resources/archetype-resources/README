@@ -1,0 +1,13 @@
+#set( $symbol_pound = '#' )
+#set( $symbol_dollar = '$' )
+#set( $symbol_escape = '\' )
+${artifactId}
+====================================================
+
+This project is based on this maven archetype: https://github.com/timezra/cucumber-jvm-archetype
+
+It contains specifications for the ${feature} feature.
+
+To run these specifications, use standard Maven commands such as
+    
+    $ mvn verify
