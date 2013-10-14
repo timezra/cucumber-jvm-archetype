@@ -7,7 +7,7 @@ Usage
 ----------------------------------------------------
 
     $ mvn archetype:generate -DarchetypeCatalog=http://timezra.github.com/maven/releases/archetypes -Dfilter=timezra.maven:cucumber-jvm-archetype
-    $ *fill in the groupId, artifactId, version and feature information*
+    $ fill in the groupId, artifactId, version and feature information
     $ cd SPECIFICATION_PROJECT
     $ unset GEM_PATH GEM_HOME RUBY_VERSION
     $ mvn verify
